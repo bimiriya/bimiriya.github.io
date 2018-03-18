@@ -1,0 +1,78 @@
+const skills = {
+  Javascript: {
+    html: '<i class="devicon-javascript-plain"></i>',
+    tag: 'Language'
+  },
+  JQuery: {
+    html: '<i class="devicon-jquery-plain-wordmark colored"></i>',
+    tag: 'Library'
+  },
+  React: {
+    html: '<i class="devicon-react-original colored"></i>',
+    tag: 'Library'
+  },
+  'Node.js': {
+    html: '<i class="devicon-nodejs-plain-wordmark colored"></i>',
+    tag: 'Environment'
+  },
+  NPM: {
+    html: '<img class="this" src="assets/img/npm.png" alt="">',
+    tag: 'Node.js'
+  },
+  Express: {
+    html: '<i class="devicon-express-original-wordmark colored"></i>',
+    tag: 'Node.js'
+  },
+  Mocha: {
+    html: '<i class="devicon-mocha-plain colored"></i>',
+    tag: 'Test Unit'
+  },
+  Babel: {
+    html: "<i class='devicon-babel-plain colored'></i>",
+    tag: 'Compiler'
+  },
+  HTML5: {
+    html: '<i class="devicon-html5-plain colored"></i>',
+    tag: 'Web Design'
+  },
+  CSS3: {
+    html: '<i class="devicon-css3-plain colored"></i>',
+    tag: 'Web Design'
+  },
+  Bootstrap: {
+    html: '<i class="devicon-bootstrap-plain colored"></i>',
+    tag: ['Web Design', 'Framework']
+  },
+  Materialize: {
+    html: '<img class="this" src="assets/img/materialize.png" alt="">',
+    tag: ['Web Design', 'Framework']
+  },
+  SASS: {
+    html: '<i class="devicon-sass-original colored"></i>',
+    tag: 'Web Design'
+  },
+  Photoshop: {
+    html: '<i class="devicon-photoshop-line colored"></i>',
+    tag: 'Web Design'
+  },
+  Firebase: {
+    html: '<img class="this" src="assets/img/firebase.svg" alt="">',
+    tag: ''
+  },
+  'VS Code': {
+    html: '<i class="devicon-visualstudio-plain colored"></i>',
+    tag: 'Tool'
+  },
+  Ubuntu: {
+    html: '<i class="devicon-ubuntu-plain colored"></i>',
+    tag: 'Tool'
+  },
+  Git: {
+    html: '<i class="devicon-git-plain colored"></i>',
+    tag: 'Control System'
+  },
+  Github: {
+    html: '<i class="devicon-github-plain colored"></i>',
+    tag: 'Control System'
+  }
+};
