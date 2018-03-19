@@ -2,7 +2,7 @@ $(document).ready(() => {
   fixNavHeight();
   showItemTitle();
   getSkills();
-  init()
+  init();
   $('#navwide a').on('click', smoothScroll);
 });
 
@@ -64,7 +64,7 @@ function init() {
   var speed = 330,
     easing = mina.backout;
 
-  [].slice.call(document.querySelectorAll('#projects > a')).forEach(function (el) {
+  [].slice.call(document.querySelectorAll('#projects > a')).forEach(function(el) {
     var s = Snap(el.querySelector('svg')), path = s.select('path'),
       pathConfig = {
         from: path.attr('d'),

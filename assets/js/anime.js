@@ -1,4 +1,4 @@
-$('.nav-item').mouseover(event => {
+$('.navitem').mouseover(event => {
   let img = event.target;
 
   var cssSelector = anime({
@@ -11,7 +11,7 @@ $('.nav-item').mouseover(event => {
   });
 });
 
-$('.nav-item').mouseleave(event => {
+$('.navitem').mouseleave(event => {
   let img = event.target;
 
   var cssSelector = anime({
