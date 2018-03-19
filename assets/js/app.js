@@ -1,5 +1,6 @@
 $(document).ready(() => {
   fixNavHeight();
+  fixProfileHeight();
   showItemTitle();
   getSkills();
   init();
@@ -12,6 +13,15 @@ function fixNavHeight() {
 
   $(window).resize(function() {
     $('.navitem').height($(document).height() / 5.1 + 'px');
+  });
+}
+
+function fixProfileHeight() {
+  let widthtLal = $('.lala').width();
+  $('.lala').height(widthtLal + 'px');
+
+  $('.lala').resize(function() {
+    $('.lala').height($('.lala').width());
   });
 }
 
@@ -64,7 +74,7 @@ function init() {
   var speed = 330,
     easing = mina.backout;
 
-  [].slice.call(document.querySelectorAll('#projects > a')).forEach(function(el) {
+  [].slice.call(document.querySelectorAll('#projects .row .col > a')).forEach(function(el) {
     var s = Snap(el.querySelector('svg')), path = s.select('path'),
       pathConfig = {
         from: path.attr('d'),

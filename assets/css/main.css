@@ -3,7 +3,7 @@
 }
 
 .titles {
-  background: rgba(255, 237, 181, 0.822);
+  background: transparent;
   border-radius: 2em;
 }
 
@@ -13,7 +13,7 @@
 
 #navwide {
   /* background: #FFFFD3; */
-  background: white;
+  background: rgba(255, 255, 255, 0.76);;
   height: 100vh;
 }
 
@@ -41,7 +41,7 @@ nav a span {
 }
 
 a:hover {
-  color: #9166A9;
+  color: black;
 }
 
 .navitem:not(:first-child) {
@@ -53,12 +53,15 @@ a:hover {
 }
 
 #contents {
-  background: #FFFFD3;
   overflow: auto;
   height: 100vh;
-  background-image: url(../img/d.jpg);
+}
+
+body {
+  background-image: url(../img/bb.png);
   background-position: center;
   background-size: cover;
+
 }
 
 #about {
@@ -67,27 +70,49 @@ a:hover {
 
 
 #desc {
-  color: #98402F;
-  background: #FFFFD3;
+  color: white;
+  margin: 2em 0;
+  background: #1f1632;
   padding: 2em;
   border-radius: 1em;
+  border: 2px solid #ba00d6;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon1 {
+  from {
+    box-shadow: 0 0 2px #ba00d6, 0 0 5px #ba00d6, 0 0 2px #ba00d6, 0 0 15px #9166A9, 0 0 10px #9166A9, 0 0 15px #9166A9, 0 0 100px #9166A9, 0 0 10px #ba00d6;
+  }
+  to {
+    box-shadow: 0 0 2px #ba00d6, 0 0 5px #ba00d6, 0 0 2px #ba00d6, 0 0 15px #9166A9, 0 0 15px #9166A9, 0 0 10px #9166A9, 0 0 50px #9166A9, 0 0 15px #ba00d6;
+  }
 }
 
 #about ul {
   text-align: center;
-  margin-top: 4em;
+  margin-top: 2em;
 }
 
 #about ul li {
   display: inline-block;
-  margin: 0 2em;
-  background: #F9C65B;
+  margin: 0 1em;
+  background: white;
   padding: 0.5em;
+  border-radius: 2em;
+  padding: 0.5em 1em;
 }
 
 #about h1 {
   color: white;
-  margin: 2em 0;
+  font-size: 6vw;
+  line-height: 2;
+}
+
+#about h3 {
+  color: white;
+  margin: 0 5%;
 }
 
 #skill-set img {
@@ -105,6 +130,26 @@ a:hover {
 
 footer {
   width: 100%;
-  background: white;
+  background: rgba(255, 255, 255, 0.76);
   padding: 0.5em 0;
+}
+
+.enjaja {
+width: 100%;
+}
+
+
+
+
+/* .lala {
+  background-image: url(../img/profpic.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+
+.lala {
+  width: 100%;
+  object-fit: cover;
+  object-position: center 40%;
+  border-radius: 50%;
 }

@@ -40,7 +40,7 @@ const skills = {
     tag: 'Web Design'
   },
   Bootstrap: {
-    html: '<i class="devicon-bootstrap-plain colored"></i>',
+    html: '<i class="devicon-bootstrap-plain-wordmark"></i>',
     tag: ['Web Design', 'Framework']
   },
   Materialize: {

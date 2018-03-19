@@ -4,7 +4,7 @@
 
 #projects a {
 	float: left;
-	width: 30%;
+	width: 100%;
   color: #333;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #projects figure img {
-  height: 35vw;
+  height: 20vw;
 	position: relative;
   display: block;
   object-fit: cover;
@@ -25,6 +25,7 @@
 	opacity: 0.5;
 	-webkit-transition: opacity 0.3s;
 	transition: opacity 0.3s;
+	margin-top: 2.7em;
 }
 
 #projects figcaption {
@@ -62,16 +63,6 @@
 	transform: translateY(50px);
 }
 
-#projects figure button {
-	position: absolute;
-	padding: 4px 20px;
-	border: none;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: bold;
-	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-	transition: opacity 0.3s, transform 0.3s;
-}
 
 #projects figcaption,
 #projects figcaption h2,
@@ -115,7 +106,7 @@
 	bottom: 0;
 	left: 0;
 	padding: 15px;
-	width: 100%;
+	width: 50%;
 	background: #fff;
 	color: #333;
 	font-weight: 300;
@@ -123,6 +114,16 @@
 	transform: translateY(100%);
 }
 
+#projects figure button {
+	position: absolute;
+	padding: 4px 20px;
+	border: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+}
 #projects figcaption p {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
