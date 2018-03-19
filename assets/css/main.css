@@ -1,14 +1,20 @@
-nav {
+#navwide {
   /* background: #FFFFD3; */
   background: white;
   height: 100vh;
 }
 
-.nav-item {
+nav a span {
+  font-family: 'Righteous', cursive;
+  font-size: 130%;
+  vertical-align: middle;
+}
+
+.navitem {
   padding: 1em;
 }
 
-.nav-item * {
+.navitem * {
   pointer-events: none;
 }
 
@@ -19,17 +25,18 @@ nav {
 
 .item {
   text-align: center;
+  margin-left: -90px;
 }
 
 a:hover {
   color: #9166A9;
 }
 
-.nav-item:not(:first-child) {
+.navitem:not(:first-child) {
   border-top: 3px solid #9166A9;
 }
 
-.nav-item img {
+.navitem img {
   margin: 1.2em 0;
 }
 
@@ -74,4 +81,19 @@ a:hover {
 
 #skill-set img {
   width: 100%;
+}
+
+
+
+
+
+
+#contact form label {
+  color: white;
+}
+
+footer {
+  width: 100%;
+  background: white;
+  padding: 0.5em 0;
 }

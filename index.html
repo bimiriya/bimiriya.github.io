@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Portfolio | Almendra Oyarzún</title>
+  <title>Almendra Oyarzún | Portfolio</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
     crossorigin="anonymous">
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -18,34 +18,63 @@
 
 <body>
 
+  <nav class="navbar navbar-light bg-light d-md-none">
+    <a class="navbar-brand" href="#">
+      <img src="assets/img/about.svg" width="30" height="30" alt="">
+      <span>Almendra Oyarzún</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="row no-gutters">
     <div class="col-md-1">
-      <nav>
-        <a href="#about" class="nav-item d-flex align-items-center">
+      <section id="navwide" class="d-none d-md-block">
+        <a href="#about" class="navitem d-flex align-items-center">
           <div>
             <img class="item-img" src="assets/img/about.svg" alt="">
             <div data-item="about" class="item"></div>
           </div>
         </a>
-        <a href="#skills" class="nav-item d-flex align-items-center">
+        <a href="#skills" class="navitem d-flex align-items-center">
           <div>
             <img class="item-img" src="assets/img/skills.svg" alt="">
             <div data-item="skills" class="item"></div>
           </div>
         </a>
-        <a href="#projects" class="nav-item d-flex align-items-center">
+        <a href="#projects" class="navitem d-flex align-items-center">
           <div>
             <img class="item-img" src="assets/img/projects.svg" alt="">
             <div data-item="projects" class="item"></div>
           </div>
         </a>
-        <a href="#contact" class="nav-item d-flex align-items-center">
+        <a href="#contact" class="navitem d-flex align-items-center">
           <div>
             <img class="item-img" src="assets/img/contact.svg" alt="">
             <div data-item="contact" class="item"></div>
           </div>
         </a>
-      </nav>
+      </section>
     </div>
     <div class="col-md-11">
       <section id="contents">
@@ -53,9 +82,16 @@
           <div class="row">
             <div class="col-md-12">
               <section id="about">
-                <div class="row justify-content-center">
-                  <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-12">
                     <h1>Almendra Oyarzún</h1>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-md-3">
+                    <img src="assets/img/brain.svg" alt="">
+                  </div>
+                  <div class="col-md-6">
                     <h5>My real first name is Pamela but I prefer to go by my middle name</h5>
                     <div id="desc">
                       <p>
@@ -188,16 +224,54 @@
             <div class="col-md-12">
               <section id="contact">
                 <div class="row">
+                  <div class="col-md-12">
+                    <h2 class="text-center">Contact me</h2>
+                    <h4>I'm currently available for work!</h4>
+                  </div>
+                </div>
+                <div class="row">
                   <div class="col-md-6">
                     <form method="POST" action="https://formspree.io/poyarzunaspee@gmail.com">
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">Do please use a real email adress, thank you!</small>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Your message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+
+
+
+                    <form >
                       <input type="email" name="email" placeholder="Your email">
                       <textarea name="message" placeholder="Your message"></textarea>
                       <button type="submit">Send</button>
+                      <a href="assets/img/bb.png" download>downlod</a>
                     </form>
                   </div>
                 </div>
               </section>
             </div>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <footer>
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    © Almendra Oyarzún
+                  </div>
+                  <div class="col-md-6 text-right">
+                    Icons © Flaticon & Devicon
+                  </div>
+                </div>
+              </div>
+            </footer>
           </div>
         </div>
       </section>
@@ -214,36 +288,6 @@
   <script src="assets/js/anime.min.js"></script>
   <script src="assets/js/skills.json"></script>
   <script src="assets/js/snap.svg-min.js"></script>
-  <script>
-    (function () {
-
-      function init() {
-        console.log('y');
-
-        var speed = 330,
-          easing = mina.backout;
-
-        [].slice.call(document.querySelectorAll('#projects > a')).forEach(function (el) {
-          var s = Snap(el.querySelector('svg')), path = s.select('path'),
-            pathConfig = {
-              from: path.attr('d'),
-              to: el.getAttribute('data-path-hover')
-            };
-
-          el.addEventListener('mouseenter', function () {
-            path.animate({ 'path': pathConfig.to }, speed, easing);
-          });
-
-          el.addEventListener('mouseleave', function () {
-            path.animate({ 'path': pathConfig.from }, speed, easing);
-          });
-        });
-      }
-
-      init();
-
-    })();
-  </script>
   <script src="assets/js/app.js"></script>
   <script src="assets/js/anime.js"></script>
 </body>

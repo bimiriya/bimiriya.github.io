@@ -7,7 +7,7 @@ $('.nav-item').mouseover(event => {
   });
   var cssSelector = anime({
     targets: img.querySelector('.item'),
-    translateY: -5
+    translateX: 45,
   });
 });
 
@@ -17,6 +17,10 @@ $('.nav-item').mouseleave(event => {
   var cssSelector = anime({
     targets: img.querySelector('img'),
     translateY: 5
+  });
+  var cssSelector = anime({
+    targets: img.querySelector('.item'),
+    translateX: -45,
   });
 });
 
