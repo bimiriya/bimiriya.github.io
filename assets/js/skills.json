@@ -1,18 +1,18 @@
 const skills = {
   Javascript: {
-    html: '<i class="devicon-javascript-plain"></i>',
+    html: '<i class="devicon devicon-javascript-plain"></i>',
     tag: 'Language'
   },
   JQuery: {
-    html: '<i class="devicon-jquery-plain-wordmark colored"></i>',
+    html: '<i class="devicon devicon-jquery-plain-wordmark"></i>',
     tag: 'Library'
   },
   React: {
-    html: '<i class="devicon-react-original colored"></i>',
+    html: '<i class="devicon devicon-react-original"></i>',
     tag: 'Library'
   },
   'Node.js': {
-    html: '<i class="devicon-nodejs-plain-wordmark colored"></i>',
+    html: '<i class="devicon devicon-nodejs-plain"></i>',
     tag: 'Environment'
   },
   NPM: {
@@ -20,27 +20,27 @@ const skills = {
     tag: 'Node.js'
   },
   Express: {
-    html: '<i class="devicon-express-original-wordmark colored"></i>',
+    html: '<i class="devicon devicon-express-original"></i>',
     tag: 'Node.js'
   },
   Mocha: {
-    html: '<i class="devicon-mocha-plain colored"></i>',
+    html: '<i class="devicon devicon-mocha-plain"></i>',
     tag: 'Test Unit'
   },
   Babel: {
-    html: "<i class='devicon-babel-plain colored'></i>",
+    html: '<i class="devicon devicon-babel-plain"></i>',
     tag: 'Compiler'
   },
   HTML5: {
-    html: '<i class="devicon-html5-plain colored"></i>',
+    html: '<i class="devicon devicon-html5-plain"></i>',
     tag: 'Web Design'
   },
   CSS3: {
-    html: '<i class="devicon-css3-plain colored"></i>',
+    html: '<i class="devicon devicon-css3-plain"></i>',
     tag: 'Web Design'
   },
   Bootstrap: {
-    html: '<i class="devicon-bootstrap-plain-wordmark"></i>',
+    html: '<i class="devicon devicon-bootstrap-plain"></i>',
     tag: ['Web Design', 'Framework']
   },
   Materialize: {
@@ -48,11 +48,11 @@ const skills = {
     tag: ['Web Design', 'Framework']
   },
   SASS: {
-    html: '<i class="devicon-sass-original colored"></i>',
+    html: '<i class="devicon devicon-sass-original"></i>',
     tag: 'Web Design'
   },
   Photoshop: {
-    html: '<i class="devicon-photoshop-line colored"></i>',
+    html: '<i class="devicon devicon-photoshop-plain"></i>',
     tag: 'Web Design'
   },
   Firebase: {
@@ -60,19 +60,19 @@ const skills = {
     tag: ''
   },
   'VS Code': {
-    html: '<i class="devicon-visualstudio-plain colored"></i>',
+    html: '<i class="devicon devicon-visualstudio-plain"></i>',
     tag: 'Tool'
   },
   Ubuntu: {
-    html: '<i class="devicon-ubuntu-plain colored"></i>',
+    html: '<i class="devicon devicon-ubuntu-plain"></i>',
     tag: 'Tool'
   },
   Git: {
-    html: '<i class="devicon-git-plain colored"></i>',
+    html: '<i class="devicon devicon-git-plain"></i>',
     tag: 'Control System'
   },
   Github: {
-    html: '<i class="devicon-github-plain colored"></i>',
+    html: '<i class="devicon devicon-github-plain"></i>',
     tag: 'Control System'
   }
 };

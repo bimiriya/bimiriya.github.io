@@ -1,10 +1,9 @@
-.cute-font {
-  font-family: 'Righteous', cursive;
-}
-
 .titles {
-  background: transparent;
-  border-radius: 2em;
+  color: white;
+  font-size: 2vw;
+  line-height: 2;
+  font-family: 'Righteous', cursive;
+  text-align: center;
 }
 
 .titles h2 {
@@ -13,13 +12,14 @@
 
 #navwide {
   /* background: #FFFFD3; */
-  background: rgba(255, 255, 255, 0.76);;
+  background: rgba(255, 255, 255, 0.616);;
   height: 100vh;
 }
 
 nav a span {
   font-size: 130%;
   vertical-align: middle;
+  font-family: 'Righteous', cursive;
 }
 
 .navitem {
@@ -38,6 +38,7 @@ nav a span {
 .item {
   text-align: center;
   margin-left: -90px;
+  font-family: 'Righteous', cursive;
 }
 
 a:hover {
@@ -61,7 +62,6 @@ body {
   background-image: url(../img/bb.png);
   background-position: center;
   background-size: cover;
-
 }
 
 #about {
@@ -102,12 +102,14 @@ body {
   padding: 0.5em;
   border-radius: 2em;
   padding: 0.5em 1em;
+  cursor: default;
 }
 
 #about h1 {
   color: white;
   font-size: 6vw;
   line-height: 2;
+  font-family: 'Righteous', cursive;
 }
 
 #about h3 {
@@ -119,8 +121,9 @@ body {
   width: 100%;
 }
 
-
-
+.devicon {
+  color: white;
+}
 
 
 

@@ -37,7 +37,7 @@ function showItemTitle() {
 
 function getSkills() {
   $.each(skills, (name, obj) => {
-    $('#skill-set .row').append(`<div class="col-md-3" data-tag="${obj.tag}">
+    $('#skill-set .row').append(`<div class="col-3" data-tag="${obj.tag}">
                               ${obj.html}
                               <span>${name}</span>
                               </div>`);
