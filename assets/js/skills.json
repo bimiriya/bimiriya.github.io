@@ -3,10 +3,6 @@ const skills = {
     html: '<i class="devicon devicon-javascript-plain"></i>',
     tag: 'Language'
   },
-  JQuery: {
-    html: '<i class="devicon devicon-jquery-plain-wordmark"></i>',
-    tag: 'Library'
-  },
   React: {
     html: '<i class="devicon devicon-react-original"></i>',
     tag: 'Library'
@@ -16,20 +12,16 @@ const skills = {
     tag: 'Environment'
   },
   NPM: {
-    html: '<img class="this" src="assets/img/npm.png" alt="">',
+    html: '<img class="this" src="assets/img/npm" alt="">',
     tag: 'Node.js'
   },
-  Express: {
-    html: '<i class="devicon devicon-express-original"></i>',
-    tag: 'Node.js'
+  Firebase: {
+    html: '<img class="this" src="assets/img/firebase" alt="">',
+    tag: ''
   },
-  Mocha: {
-    html: '<i class="devicon devicon-mocha-plain"></i>',
-    tag: 'Test Unit'
-  },
-  Babel: {
-    html: '<i class="devicon devicon-babel-plain"></i>',
-    tag: 'Compiler'
+  'Heroku': {
+    html: '<i class="devicon-heroku-plain"></i>',
+    tag: ''
   },
   HTML5: {
     html: '<i class="devicon devicon-html5-plain"></i>',
@@ -39,33 +31,37 @@ const skills = {
     html: '<i class="devicon devicon-css3-plain"></i>',
     tag: 'Web Design'
   },
+  SASS: {
+    html: '<i class="devicon devicon-sass-original"></i>',
+    tag: 'Web Design'
+  },
   Bootstrap: {
     html: '<i class="devicon devicon-bootstrap-plain"></i>',
     tag: ['Web Design', 'Framework']
   },
   Materialize: {
-    html: '<img class="this" src="assets/img/materialize.png" alt="">',
+    html: '<img class="this" src="assets/img/materialize" alt="">',
     tag: ['Web Design', 'Framework']
-  },
-  SASS: {
-    html: '<i class="devicon devicon-sass-original"></i>',
-    tag: 'Web Design'
   },
   Photoshop: {
     html: '<i class="devicon devicon-photoshop-plain"></i>',
     tag: 'Web Design'
   },
-  Firebase: {
-    html: '<img class="this" src="assets/img/firebase.svg" alt="">',
-    tag: ''
+  JQuery: {
+    html: '<i class="devicon-jquery-plain"></i>',
+    tag: 'Library'
   },
-  'VS Code': {
-    html: '<i class="devicon devicon-visualstudio-plain"></i>',
-    tag: 'Tool'
+  Babel: {
+    html: '<i class="devicon devicon-babel-plain"></i>',
+    tag: 'Compiler'
   },
-  Ubuntu: {
-    html: '<i class="devicon devicon-ubuntu-plain"></i>',
-    tag: 'Tool'
+  Express: {
+    html: '<i class="devicon devicon-express-original"></i>',
+    tag: 'Node.js'
+  },
+  Mocha: {
+    html: '<i class="devicon devicon-mocha-plain"></i>',
+    tag: 'Test Unit'
   },
   Git: {
     html: '<i class="devicon devicon-git-plain"></i>',

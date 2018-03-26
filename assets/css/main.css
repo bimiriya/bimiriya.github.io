@@ -1,18 +1,5 @@
-.titles {
-  color: white;
-  font-size: 2vw;
-  line-height: 2;
-  font-family: 'Righteous', cursive;
-  text-align: center;
-}
-
-.titles h2 {
-  font-size: 300%;
-}
-
 #navwide {
-  /* background: #FFFFD3; */
-  background: rgba(255, 255, 255, 0.616);;
+  background: #9166A9;
   height: 100vh;
 }
 
@@ -42,11 +29,11 @@ nav a span {
 }
 
 a:hover {
-  color: black;
+  color: white;
 }
 
 .navitem:not(:first-child) {
-  border-top: 3px solid #9166A9;
+  border-top: 3px solid white;
 }
 
 .navitem img {
@@ -58,101 +45,50 @@ a:hover {
   height: 100vh;
 }
 
-body {
-  background-image: url(../img/bb.png);
-  background-position: center;
-  background-size: cover;
+#contents h1, #contents h2 {
+  font-family: 'Righteous', cursive;
+}
+
+#contents h2 {
+  font-size: 400%;
 }
 
 #about {
   height: 100vh;
+  padding: 10vh 0;
 }
 
+#about h1 {
+  font-size: 500%;
+  color: #9166A9;
+}
 
 #desc {
-  color: white;
-  margin: 2em 0;
-  background: #1f1632;
-  padding: 2em;
-  border-radius: 1em;
-  border: 2px solid #ba00d6;
-  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
-  animation: neon1 1.5s ease-in-out infinite alternate;
-}
-
-@keyframes neon1 {
-  from {
-    box-shadow: 0 0 2px #ba00d6, 0 0 5px #ba00d6, 0 0 2px #ba00d6, 0 0 15px #9166A9, 0 0 10px #9166A9, 0 0 15px #9166A9, 0 0 100px #9166A9, 0 0 10px #ba00d6;
-  }
-  to {
-    box-shadow: 0 0 2px #ba00d6, 0 0 5px #ba00d6, 0 0 2px #ba00d6, 0 0 15px #9166A9, 0 0 15px #9166A9, 0 0 10px #9166A9, 0 0 50px #9166A9, 0 0 15px #ba00d6;
-  }
-}
-
-#about ul {
-  text-align: center;
-  margin-top: 2em;
+  margin: 4em 0;
+  padding: 0.5em;
 }
 
 #about ul li {
   display: inline-block;
-  margin: 0 1em;
-  background: white;
-  padding: 0.5em;
+  background: #9166A9;
   border-radius: 2em;
-  padding: 0.5em 1em;
-  cursor: default;
-}
-
-#about h1 {
+  padding: 0.3em 1em;
   color: white;
-  font-size: 6vw;
-  line-height: 2;
-  font-family: 'Righteous', cursive;
+  margin: 0 0.5em;
 }
 
-#about h3 {
-  color: white;
-  margin: 0 5%;
+#skills {
+  height: 100vh;
 }
 
-#skill-set img {
+#skills img {
   width: 100%;
 }
 
-.devicon {
-  color: white;
-}
-
-
-
-#contact form label {
-  color: white;
-}
-
-footer {
+#skill-set i {
   width: 100%;
-  background: rgba(255, 255, 255, 0.76);
-  padding: 0.5em 0;
 }
 
-.enjaja {
-width: 100%;
-}
-
-
-
-
-/* .lala {
-  background-image: url(../img/profpic.jpg);
-  background-size: cover;
-  background-position: center;
-} */
-
-.lala {
-  width: 100%;
-  object-fit: cover;
-  object-position: center 40%;
-  border-radius: 50%;
+#contact {
+  height: 100vh;
 }
