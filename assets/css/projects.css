@@ -16,10 +16,11 @@
 	border: 4px solid #9166A9;
 	border-radius: 1em;
 	margin: 1em 0;
+	width: 75%;
 }
 
 #projects figure img {
-  height: 280px;
+	height: 200px;
 	position: relative;
   display: block;
   object-fit: cover;
@@ -40,15 +41,16 @@
 	text-align: center;
 }
 
-#projects figcaption h2 {
+#projects figcaption h3 {
 	margin: 0 0 20px 0;
 	color: #9000d0;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 300;
-	font-size: 130%;
+	font-size: 110%;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
+	font-family: 'Righteous', cursive;
 }
 
 #projects figcaption p {
@@ -59,7 +61,7 @@
 	transition: opacity 0.3s, transform 0.3s;
 }
 
-#projects figcaption h2,
+#projects figcaption h3,
 #projects figcaption p {
 	-webkit-transform: translateY(50px);
 	transform: translateY(50px);
@@ -67,7 +69,7 @@
 
 
 #projects figcaption,
-#projects figcaption h2,
+#projects figcaption h3,
 #projects figcaption p,
 #projects figure button {
 	-webkit-backface-visibility: hidden;
@@ -87,7 +89,7 @@
 	opacity: 1;
 }
 
-#projects a:hover figcaption h2,
+#projects a:hover figcaption h3,
 #projects a:hover figcaption p {
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
@@ -136,9 +138,10 @@
 }
 
 #projects figure figcaption p span {
-	background: #C6C6C6;
+	background: rgb(0, 0, 0);
 	color: white;
 	padding: 3px;
 	padding: 5px;
 	border-radius: 5px;
+	font-size: 10px;
 }
