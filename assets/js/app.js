@@ -2,6 +2,7 @@ $(document).ready(() => {
   fixNavHeight();
   showItemTitle();
   // getSkills();
+  fixSkillSize();
   init();
 });
 
@@ -64,4 +65,12 @@ function showProject(event) {
   $('#viewProject').modal();
   $('#github').attr('href', github);
   $('#demo').attr('href', demo);
+}
+
+function fixSkillSize() {
+  let skillWidth = $('#icons-main .col').width();
+  $('#icons-main i').css('font-size', skillWidth + 'px');
+  $('#icons-design i').css('font-size', skillWidth / 1.5 + 'px');
+  $('#icons-other i').css('font-size', skillWidth / 2 + 'px');
+  $('#icons-other .half').css('font-size', skillWidth / 2.5 + 'px');
 }
