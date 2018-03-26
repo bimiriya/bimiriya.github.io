@@ -28,8 +28,8 @@ nav a span {
   font-family: 'Righteous', cursive;
 }
 
-a:hover {
-  color: white;
+#navwide a:hover {
+  color: #9166A9;
 }
 
 .navitem:not(:first-child) {
@@ -120,4 +120,12 @@ a:hover {
 #sns h5 {
   font-family: 'Righteous', cursive;
   margin: 1em 0;
+}
+
+#sns a {
+  color: black;
+}
+
+#sns a:hover {
+  color: #9166A9;
 }
