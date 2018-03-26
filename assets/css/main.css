@@ -143,13 +143,14 @@ a:hover {
 }
 
 .icons {
-  margin: 3em 0;
+  margin: 2em 0;
 }
 
-#skill-set i:hover {
+#icons-main .iconpic {
+  width: 75%;
+}
+
+#skill-set p {
+  font-family: 'Righteous', cursive;
   color: #9166A9;
-}
-
-#skill-set p, #skill-set i {
-  text-align: center;
 }

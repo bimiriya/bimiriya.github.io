@@ -1,7 +1,6 @@
 $(document).ready(() => {
   fixNavHeight();
   showItemTitle();
-  // getSkills();
   fixSkillSize();
   init();
 });
@@ -23,17 +22,6 @@ function showItemTitle() {
   $('.navitem').mouseleave(event => {
     $('.navitem .item').find('p').remove();
   });
-}
-
-function getSkills() {
-  $.each(skills, (name, obj) => {
-    $('#skill-set .row').append(`<div class="col-3" data-tag="${obj.tag}">
-                              ${obj.html}
-                              <span>${name}</span>
-                              </div>`);
-  });
-  let skillWidth = $('#skill-set .col-md-3').width();
-  $('#skill-set i').css('font-size', skillWidth + 'px');
 }
 
 function init() {
@@ -74,3 +62,10 @@ function fixSkillSize() {
   $('#icons-other i').css('font-size', skillWidth / 2 + 'px');
   $('#icons-other .half').css('font-size', skillWidth / 2.5 + 'px');
 }
+
+$('#skill-set i').mouseover((event) => {
+  $(event.target).addClass('colored');
+  $(this).mouseleave((event) => {
+    $(event.target).removeClass('colored');
+  })
+});
