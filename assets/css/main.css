@@ -3,6 +3,10 @@
   height: 100vh;
 }
 
+.brand {
+  color: #9166A9;
+}
+
 nav a span {
   font-size: 130%;
   vertical-align: middle;
@@ -86,7 +90,7 @@ a:hover {
   width: 100%;
 }
 
-#projects, #skills, #contact {
+#projects, #skills, #contact, #skillmov {
   margin: 0 5em;
 }
 
@@ -153,4 +157,28 @@ a:hover {
 #skill-set p {
   font-family: 'Righteous', cursive;
   color: #9166A9;
+}
+
+#aboutmov {
+  height: 100vh;
+}
+
+#aboutmov h5 {
+  font-family: 'Righteous', cursive;
+  line-height: 2;
+  border-bottom: 3px solid #9166A9;
+}
+
+#descmov {
+  margin: 3em 0 1em;
+}
+
+#aboutmov ul li {
+  display: inline-block;
+  background: #9166A9;
+  border-radius: 0.5em;
+  padding: 0.5em;
+  color: white;
+  margin: 0.2em;
+  font-size: 12px;
 }

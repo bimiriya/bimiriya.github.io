@@ -56,11 +56,11 @@ function showProject(event) {
 }
 
 function fixSkillSize() {
-  let skillWidth = $('#icons-main .col').width();
-  $('#icons-main i').css('font-size', skillWidth + 'px');
-  $('#icons-design i').css('font-size', skillWidth / 1.5 + 'px');
-  $('#icons-other i').css('font-size', skillWidth / 2 + 'px');
-  $('#icons-other .half').css('font-size', skillWidth / 2.5 + 'px');
+  let skillWidth = $('.icons-main .col').width();
+  $('.icons-main i').css('font-size', skillWidth + 'px');
+  $('.icons-design i').css('font-size', skillWidth / 1.5 + 'px');
+  $('.icons-other i').css('font-size', skillWidth / 2 + 'px');
+  $('.icons-other .half').css('font-size', skillWidth / 2.5 + 'px');
 }
 
 $('#skill-set i').mouseover((event) => {
