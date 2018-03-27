@@ -67,5 +67,5 @@ $('#skill-set i').mouseover((event) => {
   $(event.target).addClass('colored');
   $(this).mouseleave((event) => {
     $(event.target).removeClass('colored');
-  })
+  });
 });

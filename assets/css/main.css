@@ -4,6 +4,7 @@
 }
 
 .brand {
+  font-size: 20px;
   color: #9166A9;
 }
 
@@ -60,7 +61,7 @@ a:hover {
 
 #about {
   height: 100vh;
-  padding: 10vh 0;
+  padding-top: 5%;
 }
 
 #about h1 {
@@ -69,8 +70,11 @@ a:hover {
 }
 
 #desc {
-  margin: 4em 0;
-  padding: 0.5em;
+  margin: 4% 0;
+}
+
+#desc p {
+  background: white;
 }
 
 #about ul li {
@@ -80,22 +84,21 @@ a:hover {
   padding: 0.3em 1em;
   color: white;
   margin: 0 0.5em;
+  cursor: default;
 }
 
-#skills img {
-  width: 100%;
-}
-
-#skill-set .devicon {
-  width: 100%;
-}
-
-#projects, #skills, #contact, #skillmov {
-  margin: 0 5em;
+#about .ulmov li {
+  display: inline-block;
+  background: #9166A9;
+  border-radius: 2em;
+  color: white;
+  font-size: 12px;
+  margin: 1% 0;
 }
 
 #contact {
-  height: 100vh;
+  min-height: 100vh;
+  margin-top: 5%;
 }
 
 #contact form button {
@@ -108,8 +111,17 @@ a:hover {
   margin: 2em 0;
 }
 
+#contact input, #contact textarea {
+  border-radius: 1em;
+}
+
 #sns {
   padding: 3em 0;
+  text-align: center;
+}
+
+#sns h4 {
+  font-size: 1.3em;
 }
 
 #sns .fa-linkedin, .fa-github-square {
@@ -130,55 +142,108 @@ a:hover {
   color: #9166A9;
 }
 
-#github button {
-  background: #9166A9;
-  font-family: 'Righteous', cursive;
-  font-size: 1.5em;
-  width: 100%;
-  margin-bottom: 1em;
-}
-
-#demo button {
-  background: black;
-  color: #9166A9;
-  font-family: 'Righteous', cursive;
-  font-size: 1.5em;
-  width: 100%;
-}
-
-.icons {
-  margin: 2em 0;
-}
-
-#icons-main .iconpic {
-  width: 75%;
-}
 
 #skill-set p {
   font-family: 'Righteous', cursive;
   color: #9166A9;
 }
 
-#aboutmov {
-  height: 100vh;
+#about h4 {
+  font-family: 'Righteous', cursive;
+  border-bottom: 3px solid #9166A9;
+  padding-bottom: 1em;
+  font-size: 1.5em;
 }
 
-#aboutmov h5 {
+body {
+  background: rgb(241, 241, 241);
+}
+
+#skills {
+  min-height: 100vh;
+}
+
+#skills .icons-dev i {
+  font-size: 500%;
+}
+
+#skills .icons-basic i {
+  font-size: 400%;
+}
+
+#skills .icons-basic {
+  margin: 2em 0;
+}
+
+#skills .icons-extra i {
+  font-size: 300%;
+}
+
+#skill-set {
+  margin: 5em 0;
+}
+
+.project-card {
+  width: 100%;
+  min-height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+#trivia {
+  background-image: url(../img/projects/react-trivia.gif);
+}
+#instapets {
+  background-image: url(../img/projects/instapets.gif);
+}
+#weather {
+  background-image: url(../img/projects/weather-api.gif);
+}
+#ecom {
+  background-image: url(../img/projects/ecommerce.gif);
+}
+
+.demo {
+  background: #9166A9;
+  color: white;
+  width: 40%;
+  margin: 0.2em 0;
+}
+
+.github {
+  background: black;
+  color: white;
+  width: 40%;
+  margin: 0.2em 0;
+}
+
+#projects a {
+  margin: 0.5em 0.1em;
+  width: 50%;
+}
+
+#projects h4 {
   font-family: 'Righteous', cursive;
   line-height: 2;
-  border-bottom: 3px solid #9166A9;
 }
 
-#descmov {
-  margin: 3em 0 1em;
+#projects span {
+  font-size: 0.8em;
 }
 
-#aboutmov ul li {
-  display: inline-block;
+.project-container {
+  background: white;
+  padding: 1em;
+  border-radius: 1em;
+  margin: 1em 2em;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
   background: #9166A9;
-  border-radius: 0.5em;
-  padding: 0.5em;
   color: white;
-  margin: 0.2em;
-  font-size: 12px;
+  padding: 0.5em 0;
 }
